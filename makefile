@@ -4,7 +4,7 @@ dotree.o: dotree.c
 		gcc -o dotree.o -c dotree.c -W -Wall -ansi -pedantic
 
 docalc.o: docalc.c 
-		gcc -o dcalc.o -c docalc.c -W -Wall 
+		gcc -o docalc.o -c docalc.c -W -Wall 
 
 doinfo.o: doinfo.c 
 		gcc -o doinfo.o -c doinfo.c -W -Wall 
